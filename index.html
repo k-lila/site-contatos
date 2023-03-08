@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>contatos</h1>
+        </header>
+        <div class="subcontainer">
+            <fieldset id="adicione">
+                <legend><h2>adicione</h2></legend>
+                <form id="adicioneForm">
+                    <input id="nomeContato" type="text" placeholder="nome" required>
+                    <input id="telContato" type="tel" placeholder="tel" required>
+                    <select id="tipoContato" name="tipo">
+                        <option value="">---</option>
+                        <option value="casa">casa</option>
+                        <option value="celular">celular</option>
+                        <option value="trabalho">trabalho</option>
+                    </select>
+                    <textarea id="sobreContato" placeholder="sobre..."></textarea>
+                    <button type="submit">guardar</button>
+                </form>
+            </fieldset>
+            <fieldset id="pessoas">
+                <legend><h2>pessoas</h2></legend>
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Número</th>
+                            <th>tipo</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>        
+            </fieldset>
+        </div>        
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

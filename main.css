@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    background-color: rgb(240, 240, 216);
+    color: rgba(0, 0, 0, 0.800);
+    border: none;
+}
+
+h1 {
+    font-size: 175%;
+}
+
+h2 {
+    font-size: 125%;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: right;
+    margin-right: 150px;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#adicione {
+    height: 100%;
+    width: 350px;
+    margin: 15px;
+}
+
+#adicione,
+#adicione form,
+#adicione h2 {
+    background-color: #e2c18d;
+}
+
+
+#adicione h2 {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 0 10px;    
+}
+
+#adicione form {
+    padding: 10px;
+    display: grid;
+}
+
+#adicione input,
+#adicione select,
+#adicione button {
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: inherit;
+}
+
+#adicione textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: inherit;
+    height: 100px;
+    resize: none;    
+}
+
+#adicione input:focus,
+#adicione select:focus,
+#adicione textarea:focus {
+    outline: none;
+    background-color:#dfdbc8d2;
+}
+
+#adicione button {
+    margin-top: 15px;
+    background-color: #88b6a388;
+    width: fit-content;
+    padding: 5px 15px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#adicione button:hover {
+    background-color: #88b6a3;
+}
+
+#pessoas {
+    margin: 20px;
+    width: 700px;
+    height: 100%;
+}
+
+#pessoas h2 {
+    padding: 0 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#pessoas,
+#pessoas h2,
+#pessoas td,
+#pessoas table {
+    background-color: #e2c18d;
+}
+
+#pessoas table {
+    width: 100%;
+}
+
+#pessoas thead th {
+    background-color:#bdba9e;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.valido,
+.invalido {
+    padding: 0 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.valido {
+    background-color: #88b6a388;
+    height: 40px;
+    width: 40px;
+}
+
+.invalido {
+    background-color: #e2c18d;
+}
+
+.valido:hover {
+    background-color: #88b6a3;
+    height: 40px;
+    width: 40px;
+}
+
+.info {
+    text-align: center;
+}
+
+.coment p {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px 20px 30px;
+}
